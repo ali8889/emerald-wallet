@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ledgerco > node-hid > node-pre-gyp > tar-pack > debug:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:extend:20180424':
+    - eslint-nibble > eslint-friendly-formatter > extend:
+        patched: '2020-03-07T09:26:03.517Z'
+    - node-pre-gyp > request > extend:
+        patched: '2020-03-07T09:26:03.517Z'
+    - ledgerco > node-hid > node-pre-gyp > request > extend:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:hoek:20180212':
+    - ledgerco > node-hid > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-03-07T09:26:03.517Z'
+    - ledgerco > node-hid > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-03-07T09:26:03.517Z'
+    - ledgerco > node-hid > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-03-07T09:26:03.517Z'
+    - ledgerco > node-hid > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:ms:20170412':
+    - ledgerco > node-hid > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:qs:20170213':
+    - ledgerco > node-hid > node-pre-gyp > request > qs:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:stringstream:20180511':
+    - ledgerco > node-hid > node-pre-gyp > request > stringstream:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:tough-cookie:20170905':
+    - ledgerco > node-hid > node-pre-gyp > request > tough-cookie:
+        patched: '2020-03-07T09:26:03.517Z'
+  'npm:tunnel-agent:20170305':
+    - ledgerco > node-hid > node-pre-gyp > request > tunnel-agent:
+        patched: '2020-03-07T09:26:03.517Z'
