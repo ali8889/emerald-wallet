@@ -39,7 +39,9 @@
     "flow": "flow",
     "getemerald": "cross-env ELECTRON_RUN_AS_NODE=true ./node_modules/.bin/electron ./scripts/download-emerald.js",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "simp": "build"
+    "simp": "build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "react",
@@ -114,7 +116,8 @@
     "roboto-fontface": "0.7.0",
     "store": "^2.0.4",
     "typeface-rubik": "0.0.43",
-    "uuid": "3.1.0"
+    "uuid": "3.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@elastic/webpack-directory-name-as-main": "2.0.2",
@@ -231,5 +234,6 @@
       "<rootDir>/src/__mocks__/i18n.js",
       "<rootDir>/src/setupTests.js"
     ]
-  }
+  },
+  "snyk": true
 }

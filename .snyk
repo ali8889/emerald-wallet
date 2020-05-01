@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-plugin-flowtype > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - i18next-resource-store-loader > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - redux > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - redux-form > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-nibble > inquirer > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-nibble > eslint > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-nibble > eslint-stats > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - ledgerco > async > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - emerald-js-ui > @storybook/addon-knobs > react-color > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-nibble > eslint > inquirer > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - eslint-nibble > eslint > table > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
+    - emerald-js-ui > @storybook/addon-knobs > react-color > reactcss > lodash:
+        patched: '2020-05-01T05:31:46.882Z'
