@@ -70,7 +70,7 @@
     "emerald-js": "git+https://github.com/ETCDEVTeam/emerald-js.git#v0.1.6",
     "emerald-js-ui": "git+https://github.com/ETCDEVTeam/emerald-js-ui.git#v0.0.30",
     "es6-promise": "4.1.1",
-    "eslint": "4.2.0",
+    "eslint": "4.19.1",
     "eslint-nibble": "4.2.1",
     "eslint-plugin-flowtype": "2.39.1",
     "ethereum-input-data-decoder": "0.0.11",
