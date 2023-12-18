@@ -61,7 +61,7 @@
   },
   "homepage": "https://github.com/ETCDEVTeam/emerald-wallet",
   "dependencies": {
-    "bignumber.js": "4.0.0",
+    "bignumber.js": "4.1.0",
     "classnames": "^2.2.5",
     "color-hash": "^1.0.3",
     "devtron": "^1.4.0",
